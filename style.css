@@ -1,0 +1,118 @@
+.navbar-custom {
+    background: #93051c !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #93051c;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.starter h1 {
+    font-size: 1.5rem;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.crd img {
+    width: 4rem;
+}
+
+.crd {
+    display: flex;
+    flex-direction: row;
+    width: 70rem;
+}
+
+.crd h5 {
+    color: #93051c;
+    font-weight: 700;
+}
+
+.abt img {
+    width: 25rem !important;
+}
+
+.abt-desp h4 {
+    color: #93051c;
+}
+
+
+.feedback {
+    background-image: url('images/4492606.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+.feedback .card {
+    border-radius: 20px;
+}
+
+.feedback h1 {
+    color:white;
+}
+
+.fd_card {
+    position: relative;
+    width: 90%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .fd_card:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .fd_card .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #footer{
+    background-color:red;
+  }
